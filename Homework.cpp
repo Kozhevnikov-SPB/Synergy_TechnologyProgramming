@@ -1,5 +1,5 @@
 ﻿#include <stdio.h>
-//Ссылка на программу в репозитории - https://github.com/Kozhevnikov-SPB/Synergy_TechnologyProgramming/tree/Work_01_01
+//Ссылка на программу в репозитории - https://github.com/Kozhevnikov-SPB/Synergy_TechnologyProgramming/tree/Work_02_02
 
 int main()  {
 	
