@@ -2,22 +2,17 @@
 
 int main()  {
 	
-	int a, b;
+	int pin1, pin2;
 
-	printf_s("A = ");
-	scanf_s("%i", &a);
-	printf_s("B = ");
-	scanf_s("%i", &b);
+	printf_s("pin1 = ");
+	scanf_s("%i", &pin1);
+	printf_s("pin2 = ");
+	scanf_s("%i", &pin2);
 
-	if (a > b) {
-		printf("Больше");
+	if ((pin1 == 111) && (pin2 == 221))	{
+		printf("OK");
 	}
-	else {
-		if (a == b) {
-			printf("Равны");
-		}
-		else {
-			printf("Меньше");
-		}		
+	else {	
+		printf("Error");		
 	}
 }
