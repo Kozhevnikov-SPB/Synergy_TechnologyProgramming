@@ -30,8 +30,8 @@ int main()  {
 		case 7:
 			printf("Sunday");
 			break;
-	default:
-		printf("Error");
-		break;
+		default:
+			printf("Error");
+			break;
 	}
 }
