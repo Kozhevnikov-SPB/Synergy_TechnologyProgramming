@@ -1,4 +1,4 @@
-﻿//Ссылка на программу в репозитории - https://github.com/Kozhevnikov-SPB/Synergy_TechnologyProgramming/tree/Work_02_04
+﻿//Ссылка на программу в репозитории - https://github.com/Kozhevnikov-SPB/Synergy_TechnologyProgramming/tree/Work_02_Final
 #include <stdio.h>
 
 
