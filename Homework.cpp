@@ -1,15 +1,10 @@
-﻿//Ссылка на программу в репозитории - https://github.com/Kozhevnikov-SPB/Synergy_TechnologyProgramming/tree/Work_03_05_02
+﻿//Ссылка на программу в репозитории - https://github.com/Kozhevnikov-SPB/Synergy_TechnologyProgramming/tree/Work_03_06_01
 #include <stdio.h>
 
 
 int main() {
 	
-	int sum = 0, i = 5;
-
-	do {
-		sum += i;
-		i++;
-	} while (i <= 15);
-
-	printf("Sum = %i", sum);
+	for (int i = 1; i < 11; i++) {
+		printf("5 * %i = %i\n", i, i * 5);
+	}
 }
