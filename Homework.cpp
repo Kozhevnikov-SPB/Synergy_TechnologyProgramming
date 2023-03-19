@@ -27,8 +27,8 @@ int main() {
 		printf("Vvedite chislo %i = ", i);
 		scanf_s("%i", &a);
 
-		if (a < a_prev)	min = a;				//Ищем минимальное число	
-		if (a > a_prev)	max = a;				//Ищем максимальное число
+		if (a < min)	min = a;				//Ищем минимальное число	
+		if (a > max)	max = a;				//Ищем максимальное число
 		sum += a;								//Вычисляем сумму чисел
 		a_prev = a;
 	}
