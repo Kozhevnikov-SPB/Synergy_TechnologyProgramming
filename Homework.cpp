@@ -4,7 +4,7 @@
 
 int main() {
 	
-	int n, a, a_prev;
+	int n, a;
 	int min, max, sum;
 	//Вводим количество чисел для обработки		
 	printf("Vvedite kolichestvo chisel = ");
@@ -18,10 +18,10 @@ int main() {
 
 	//Начинаем ввод и обработку чисел
 	printf("Vvedite chislo 1 = ");
-	scanf_s("%i", &a_prev);	
+	scanf_s("%i", &a);	
 
-	sum = a_prev;
-	min = max = a_prev;
+	sum = a;
+	min = max = a;
 
 	for (int i = 2; i <= n; i++) {
 		printf("Vvedite chislo %i = ", i);
@@ -30,7 +30,6 @@ int main() {
 		if (a < min)	min = a;				//Ищем минимальное число	
 		if (a > max)	max = a;				//Ищем максимальное число
 		sum += a;								//Вычисляем сумму чисел
-		a_prev = a;
 	}
 
 	printf("Min = %i, Max = %i, Sum = %i, Mid = %.3f", min, max, sum, float(sum) / float(n));
