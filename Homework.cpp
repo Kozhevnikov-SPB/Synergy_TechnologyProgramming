@@ -1,22 +1,15 @@
-﻿//Ссылка на программу в репозитории - https://github.com/Kozhevnikov-SPB/Synergy_TechnologyProgramming/tree/Work_03_05_01_2
+﻿//Ссылка на программу в репозитории - https://github.com/Kozhevnikov-SPB/Synergy_TechnologyProgramming/tree/Work_03_05_02
 #include <stdio.h>
 
 
 int main() {
 	
-	int i = 0;
+	int sum = 0, i = 5;
 
-	while (i < 15)	{		
-		printf("%i ", i);			//Вывожу числа от 0 с шагом 1 с количеством итераций 15. Вывод в строчку через пробел		
+	do {
+		sum += i;
 		i++;
-	}
+	} while (i <= 15);
 
-	printf("\n");					//Делаю перевод каретки на новую строчку
-
-	i = 2;
-
-	while (i < 15)	{
-		printf("%i ", i);			//Вывожу только четные числа. Вывод в строчку через пробел
-		i += 2;
-	}
+	printf("Sum = %i", sum);
 }
